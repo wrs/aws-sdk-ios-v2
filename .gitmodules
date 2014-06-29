@@ -1,0 +1,18 @@
+[submodule "External/Bolts"]
+	path = External/Bolts
+	url = https://github.com/BoltsFramework/Bolts-iOS.git
+[submodule "External/Mantle"]
+	path = External/Mantle
+	url = https://github.com/Mantle/Mantle.git
+[submodule "External/TMCache"]
+	path = External/TMCache
+	url = https://github.com/tumblr/TMCache.git
+[submodule "External/CSURITemplate"]
+	path = External/CSURITemplate
+	url = https://github.com/cogenta/CSURITemplate.git
+[submodule "External/XMLDictionary"]
+	path = External/XMLDictionary
+	url = https://github.com/nicklockwood/XMLDictionary.git
+[submodule "External/UICKeyChainStore"]
+	path = External/UICKeyChainStore
+	url = https://github.com/kishikawakatsumi/UICKeyChainStore.git

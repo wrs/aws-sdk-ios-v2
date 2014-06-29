@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		959EA273F67F43CFA2ECD496 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0CE70F1DF4EEE8E04D464 /* libPods.a */; };
 		BD19ED05188F15EB001F5B98 /* AWSS3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD19ED04188F15EB001F5B98 /* AWSS3Tests.m */; };
 		BD47982B18B2BA930028B0DB /* AWSXMLBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47982518B2BA930028B0DB /* AWSXMLBuilderTests.m */; };
 		BD47982C18B2BA930028B0DB /* AWSXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47982618B2BA930028B0DB /* AWSXMLParserTests.m */; };
@@ -99,6 +98,15 @@
 		CED6C36618EE3EC800A56FB2 /* AWSS3TransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6C36518EE3EC800A56FB2 /* AWSS3TransferManager.m */; };
 		EFEAC89619295448005FEDE4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEAC89419295311005FEDE4 /* libsqlite3.dylib */; };
 		EFEAC897192954B2005FEDE4 /* libAWSiOSSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D83D61857AA3100907C25 /* libAWSiOSSDK.a */; };
+		FF031A0819609F3700A70B3F /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A0719609F3700A70B3F /* UICKeyChainStore.m */; };
+		FF031A0C19609F5F00A70B3F /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A0B19609F5F00A70B3F /* XMLDictionary.m */; };
+		FF031A1019609F7E00A70B3F /* CSURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A0F19609F7E00A70B3F /* CSURITemplate.m */; };
+		FF031A1819609FC200A70B3F /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1319609FC200A70B3F /* TMCache.m */; };
+		FF031A1919609FC200A70B3F /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1519609FC200A70B3F /* TMDiskCache.m */; };
+		FF031A1A19609FC200A70B3F /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1719609FC200A70B3F /* TMMemoryCache.m */; };
+		FF031A2F1960A10F00A70B3F /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF031A281960A0F700A70B3F /* libMantle-iOS.a */; };
+		FF031A441960A18B00A70B3F /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF031A391960A17B00A70B3F /* libBolts.a */; };
+		FF031A451960A2AD00A70B3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31486C187B59220068883B /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +116,90 @@
 			proxyType = 1;
 			remoteGlobalIDString = CE5D83D51857AA3100907C25;
 			remoteInfo = AWSiOSSDK;
+		};
+		FF031A231960A0F700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = Mantle;
+		};
+		FF031A251960A0F700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle Tests";
+		};
+		FF031A271960A0F700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC7915F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		FF031A291960A0F700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC8715F72BC7004E8054;
+			remoteInfo = "Mantle-iOS Tests";
+		};
+		FF031A2B1960A0F700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0A56B461804B04900A84EDC;
+			remoteInfo = "Mantle-Mac";
+		};
+		FF031A2D1960A10700A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D042FC7815F72BC7004E8054;
+			remoteInfo = "Mantle-iOS";
+		};
+		FF031A381960A17B00A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E9C3CE917DE9DE000427E62;
+			remoteInfo = Bolts;
+		};
+		FF031A3A1960A17B00A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8EDDA63517E17DDD00655F8A;
+			remoteInfo = MacBolts;
+		};
+		FF031A3C1960A17B00A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E8C8EE917F23D1D00E3F1C7;
+			remoteInfo = BoltsTests;
+		};
+		FF031A3E1960A17B00A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E8C8F1917F241DA00E3F1C7;
+			remoteInfo = MacBoltsTests;
+		};
+		FF031A401960A17B00A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1EC3016018CDAA8400D06D07;
+			remoteInfo = BoltsTestUI;
+		};
+		FF031A421960A18300A70B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9C3CE817DE9DE000427E62;
+			remoteInfo = Bolts;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -124,7 +216,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AAF85B9700504764BCD966E3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BD19ED04188F15EB001F5B98 /* AWSS3Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AWSS3Tests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BD47982518B2BA930028B0DB /* AWSXMLBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSXMLBuilderTests.m; sourceTree = "<group>"; };
 		BD47982618B2BA930028B0DB /* AWSXMLParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSXMLParserTests.m; sourceTree = "<group>"; };
@@ -277,6 +368,20 @@
 		CED6C36518EE3EC800A56FB2 /* AWSS3TransferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AWSS3TransferManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		EFEAC89419295311005FEDE4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F3A0CE70F1DF4EEE8E04D464 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF031A0619609F3700A70B3F /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = External/UICKeyChainStore/Lib/UICKeyChainStore.h; sourceTree = "<group>"; };
+		FF031A0719609F3700A70B3F /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = External/UICKeyChainStore/Lib/UICKeyChainStore.m; sourceTree = "<group>"; };
+		FF031A0A19609F5F00A70B3F /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = External/XMLDictionary/XMLDictionary/XMLDictionary.h; sourceTree = "<group>"; };
+		FF031A0B19609F5F00A70B3F /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = External/XMLDictionary/XMLDictionary/XMLDictionary.m; sourceTree = "<group>"; };
+		FF031A0E19609F7E00A70B3F /* CSURITemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSURITemplate.h; path = External/CSURITemplate/CSURITemplate/CSURITemplate.h; sourceTree = "<group>"; };
+		FF031A0F19609F7E00A70B3F /* CSURITemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSURITemplate.m; path = External/CSURITemplate/CSURITemplate/CSURITemplate.m; sourceTree = "<group>"; };
+		FF031A1219609FC200A70B3F /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = External/TMCache/TMCache/TMCache.h; sourceTree = "<group>"; };
+		FF031A1319609FC200A70B3F /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = External/TMCache/TMCache/TMCache.m; sourceTree = "<group>"; };
+		FF031A1419609FC200A70B3F /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = External/TMCache/TMCache/TMDiskCache.h; sourceTree = "<group>"; };
+		FF031A1519609FC200A70B3F /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDiskCache.m; path = External/TMCache/TMCache/TMDiskCache.m; sourceTree = "<group>"; };
+		FF031A1619609FC200A70B3F /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = External/TMCache/TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
+		FF031A1719609FC200A70B3F /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = External/TMCache/TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
+		FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = External/Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
+		FF031A301960A17B00A70B3F /* Bolts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bolts.xcodeproj; path = External/Bolts/Bolts.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,8 +402,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF031A451960A2AD00A70B3F /* UIKit.framework in Frameworks */,
+				FF031A441960A18B00A70B3F /* libBolts.a in Frameworks */,
+				FF031A2F1960A10F00A70B3F /* libMantle-iOS.a in Frameworks */,
 				CE5D83DA1857AA3100907C25 /* Foundation.framework in Frameworks */,
-				959EA273F67F43CFA2ECD496 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +828,7 @@
 		CE5D83CD1857AA3100907C25 = {
 			isa = PBXGroup;
 			children = (
+				FF031A0419609BFC00A70B3F /* External */,
 				CE55F38318DB806000F8C75F /* AmazonCore */,
 				CE55F33C18DB716B00F8C75F /* AWSCore */,
 				CE372B1318DA874000D2CFD2 /* AutoScaling */,
@@ -737,7 +845,6 @@
 				CE314856187B577A0068883B /* AWSiOSSDKTests */,
 				CE5D83D81857AA3100907C25 /* Frameworks */,
 				CE5D83D71857AA3100907C25 /* Products */,
-				AAF85B9700504764BCD966E3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -785,6 +892,83 @@
 			path = HAL;
 			sourceTree = "<group>";
 		};
+		FF031A0419609BFC00A70B3F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A301960A17B00A70B3F /* Bolts.xcodeproj */,
+				FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */,
+				FF031A1119609F8500A70B3F /* TMCache */,
+				FF031A0D19609F6300A70B3F /* CSURITemplate */,
+				FF031A0919609F4100A70B3F /* XMLDictionary */,
+				FF031A0519609C0700A70B3F /* UICKeyChainStore */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		FF031A0519609C0700A70B3F /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A0619609F3700A70B3F /* UICKeyChainStore.h */,
+				FF031A0719609F3700A70B3F /* UICKeyChainStore.m */,
+			);
+			name = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		FF031A0919609F4100A70B3F /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A0A19609F5F00A70B3F /* XMLDictionary.h */,
+				FF031A0B19609F5F00A70B3F /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		FF031A0D19609F6300A70B3F /* CSURITemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A0E19609F7E00A70B3F /* CSURITemplate.h */,
+				FF031A0F19609F7E00A70B3F /* CSURITemplate.m */,
+			);
+			name = CSURITemplate;
+			sourceTree = "<group>";
+		};
+		FF031A1119609F8500A70B3F /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A1219609FC200A70B3F /* TMCache.h */,
+				FF031A1319609FC200A70B3F /* TMCache.m */,
+				FF031A1419609FC200A70B3F /* TMDiskCache.h */,
+				FF031A1519609FC200A70B3F /* TMDiskCache.m */,
+				FF031A1619609FC200A70B3F /* TMMemoryCache.h */,
+				FF031A1719609FC200A70B3F /* TMMemoryCache.m */,
+			);
+			name = TMCache;
+			sourceTree = "<group>";
+		};
+		FF031A1C1960A0F700A70B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A241960A0F700A70B3F /* Mantle.framework */,
+				FF031A261960A0F700A70B3F /* Mantle Tests.octest */,
+				FF031A281960A0F700A70B3F /* libMantle-iOS.a */,
+				FF031A2A1960A0F700A70B3F /* Mantle-iOS Tests.octest */,
+				FF031A2C1960A0F700A70B3F /* libMantle-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF031A311960A17B00A70B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF031A391960A17B00A70B3F /* libBolts.a */,
+				FF031A3B1960A17B00A70B3F /* libMacBolts.a */,
+				FF031A3D1960A17B00A70B3F /* BoltsTests.xctest */,
+				FF031A3F1960A17B00A70B3F /* MacBoltsTests.xctest */,
+				FF031A411960A17B00A70B3F /* BoltsTestUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -810,15 +994,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5D83F91857AA3100907C25 /* Build configuration list for PBXNativeTarget "AWSiOSSDK" */;
 			buildPhases = (
-				6E52D05EBCB24E1CA70E6F9A /* Check Pods Manifest.lock */,
 				CE5D83D21857AA3100907C25 /* Sources */,
 				CE5D83D31857AA3100907C25 /* Frameworks */,
 				CE5D83D41857AA3100907C25 /* CopyFiles */,
-				AAE1414ED6C74E3CAF6A84AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FF031A431960A18300A70B3F /* PBXTargetDependency */,
+				FF031A2E1960A10700A70B3F /* PBXTargetDependency */,
 			);
 			name = AWSiOSSDK;
 			productName = AWSiOSSDK;
@@ -849,6 +1033,16 @@
 			mainGroup = CE5D83CD1857AA3100907C25;
 			productRefGroup = CE5D83D71857AA3100907C25 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF031A311960A17B00A70B3F /* Products */;
+					ProjectRef = FF031A301960A17B00A70B3F /* Bolts.xcodeproj */;
+				},
+				{
+					ProductGroup = FF031A1C1960A0F700A70B3F /* Products */;
+					ProjectRef = FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CE5D83D51857AA3100907C25 /* AWSiOSSDK */,
@@ -856,6 +1050,79 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF031A241960A0F700A70B3F /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mantle.framework;
+			remoteRef = FF031A231960A0F700A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A261960A0F700A70B3F /* Mantle Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle Tests.octest";
+			remoteRef = FF031A251960A0F700A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A281960A0F700A70B3F /* libMantle-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-iOS.a";
+			remoteRef = FF031A271960A0F700A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A2A1960A0F700A70B3F /* Mantle-iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-iOS Tests.octest";
+			remoteRef = FF031A291960A0F700A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A2C1960A0F700A70B3F /* libMantle-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMantle-Mac.a";
+			remoteRef = FF031A2B1960A0F700A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A391960A17B00A70B3F /* libBolts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBolts.a;
+			remoteRef = FF031A381960A17B00A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A3B1960A17B00A70B3F /* libMacBolts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMacBolts.a;
+			remoteRef = FF031A3A1960A17B00A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A3D1960A17B00A70B3F /* BoltsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BoltsTests.xctest;
+			remoteRef = FF031A3C1960A17B00A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A3F1960A17B00A70B3F /* MacBoltsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MacBoltsTests.xctest;
+			remoteRef = FF031A3E1960A17B00A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF031A411960A17B00A70B3F /* BoltsTestUI.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BoltsTestUI.app;
+			remoteRef = FF031A401960A17B00A70B3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CE314850187B577A0068883B /* Resources */ = {
@@ -883,39 +1150,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6E52D05EBCB24E1CA70E6F9A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AAE1414ED6C74E3CAF6A84AB /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE31484E187B577A0068883B /* Sources */ = {
@@ -953,6 +1187,7 @@
 				CE0EFAE8193D2939002A896B /* AWSSTSModel.m in Sources */,
 				CE55F39918DB806000F8C75F /* AZNetworking.m in Sources */,
 				CE372B7918DA874000D2CFD2 /* AWSEC2.m in Sources */,
+				FF031A1019609F7E00A70B3F /* CSURITemplate.m in Sources */,
 				CE372B7618DA874000D2CFD2 /* AWSCloudWatchModel.m in Sources */,
 				CE372B8018DA874000D2CFD2 /* AWSS3Model.m in Sources */,
 				CE372B8718DA874000D2CFD2 /* AWSSQS.m in Sources */,
@@ -972,9 +1207,13 @@
 				CE372B7C18DA874000D2CFD2 /* AWSElasticLoadBalancingModel.m in Sources */,
 				CE372B8518DA874000D2CFD2 /* AWSSNS.m in Sources */,
 				BDD77708193FBF6A00F04070 /* AWSSTSModel.m in Sources */,
+				FF031A1919609FC200A70B3F /* TMDiskCache.m in Sources */,
+				FF031A0819609F3700A70B3F /* UICKeyChainStore.m in Sources */,
+				FF031A0C19609F5F00A70B3F /* XMLDictionary.m in Sources */,
 				BDBA90BB18EE43BA004EE131 /* AWSURLResponseSerialization.m in Sources */,
 				CE372B8618DA874000D2CFD2 /* AWSSNSModel.m in Sources */,
 				CE372B7A18DA874000D2CFD2 /* AWSEC2Model.m in Sources */,
+				FF031A1A19609FC200A70B3F /* TMMemoryCache.m in Sources */,
 				BDBA90C018EE43C8004EE131 /* AWSNetworking.m in Sources */,
 				BDD77705193FBF6000F04070 /* (null) in Sources */,
 				BDBA90C218EE43FF004EE131 /* AWSSignature.m in Sources */,
@@ -983,6 +1222,7 @@
 				CE372B8218DA874000D2CFD2 /* AWSSESModel.m in Sources */,
 				CE55F39B18DB806000F8C75F /* AZURLSessionManager.m in Sources */,
 				CE55F39C18DB806000F8C75F /* AZSynchronizedMutableDictionary.m in Sources */,
+				FF031A1819609FC200A70B3F /* TMCache.m in Sources */,
 				CE372B7518DA874000D2CFD2 /* AWSCloudWatch.m in Sources */,
 				CED6C36618EE3EC800A56FB2 /* AWSS3TransferManager.m in Sources */,
 				CE372B8818DA874000D2CFD2 /* AWSSQSModel.m in Sources */,
@@ -1006,6 +1246,16 @@
 			isa = PBXTargetDependency;
 			target = CE5D83D51857AA3100907C25 /* AWSiOSSDK */;
 			targetProxy = CE1F781418B6A1C100EE588B /* PBXContainerItemProxy */;
+		};
+		FF031A2E1960A10700A70B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantle-iOS";
+			targetProxy = FF031A2D1960A10700A70B3F /* PBXContainerItemProxy */;
+		};
+		FF031A431960A18300A70B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			targetProxy = FF031A421960A18300A70B3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1147,11 +1397,17 @@
 		};
 		CE5D83FA1857AA3100907C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAF85B9700504764BCD966E3 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AWSiOSSDK.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSiOSSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+					"\"$(SRCROOT)/External/Bolts/Bolts\"",
+					"\"$(SRCROOT)/External/Mantle\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AWSiOSSDK;
@@ -1161,11 +1417,17 @@
 		};
 		CE5D83FB1857AA3100907C25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAF85B9700504764BCD966E3 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AWSiOSSDK.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSiOSSDK-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
+					"\"$(SRCROOT)/External/Bolts/Bolts\"",
+					"\"$(SRCROOT)/External/Mantle\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AWSiOSSDK;
