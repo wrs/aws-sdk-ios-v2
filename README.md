@@ -1,3 +1,34 @@
+##This fork contains a working version of the SDK for Cocoa.  Please read below on usage.##
+
+To use in Cocoa applications, do a recursive clone:
+
+    git clone --recursive https://github.com/jawngee/aws-sdk-ios-v2.git
+
+This fork has added the dependencies as submodules for a couple of reasons.  First, and I'm probably alone in this feeling, but I hate cocoapods for a number of valid and invalid reasons.  
+
+Second, the iOS specific code actually exists in the Bolts dependency, but can still be compiled and used with the iOS specific classes removed.
+
+Once you've cloned the repo, to get it working in your project:
+
+1. Drag the AWSiOSSDK.xcodeproj to your project.
+2. In build phases, add "AWSCocoaSDK" as a *Target Dependency*.
+3. In *Link Binary With Libraries* phase, add "libAWSCocoaSDK.a"
+4. In build settings, in *Header Search Paths*, add the directory where you cloned this repo to and make sure that it is recursive.
+5. Add -ObjC to *Other Linker Flags*. 
+
+You can now include in your code:
+
+    #import "AWSCore/AWSCore.h"
+    #import "SQS/AWSSQS.h"
+    
+You should now be good to go.  I will be tracking Amazon's repo and merging in changes as they are made.  
+
+BTW, there's no good reason this can't work both in iOS and Cocoa, except the iOS engineers at Amazon have decided to include a dependency that requires it (though the actual iOS Specific stuff isn't used at all).
+
+Anyways, enjoy.
+
+
+
 **This is a developer preview of the AWS SDK for iOS v2. The repository name may change when the SDK goes out of the preview.**
 
 # Version 2 of the AWS SDK for iOS Developer Preview
@@ -97,7 +128,8 @@ It is easy to use the AWS SDK for iOS with Swift. Please see five simple steps b
 	        return nil;
 	    }];
 
-## Talk to UsThis is a Developer Preview, and we will make changes based on your feedback. Visit the [Issues]() to leave feedback and to connect with other users of the SDK.
+## Talk to Us
+This is a Developer Preview, and we will make changes based on your feedback. Visit the [Issues]() to leave feedback and to connect with other users of the SDK.
 
 ## Author
 
