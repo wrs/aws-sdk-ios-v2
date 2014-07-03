@@ -244,7 +244,10 @@ typedef NS_ENUM(NSInteger, AZURLSessionTaskType) {
         if (delegate.request.task) {
             [self.sessionManagerDelegates setObject:delegate
                                              forKey:@(((NSURLSessionTask *)delegate.request.task).taskIdentifier)];
-            [delegate.request.task resume];
+                
+                if ([((NSObject *)delegate.request.task) respondsToSelector:@selector(resume)])
+                    [((NSURLSessionDataTask *)delegate.request.task) resume];
+                
         } else {
             AZLogError(@"Invalid AZURLSessionTaskType.");
         }
