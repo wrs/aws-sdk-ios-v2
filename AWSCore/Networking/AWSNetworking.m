@@ -14,7 +14,9 @@
  */
 
 #import "AWSNetworking.h"
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
 #import <UIKit/UIKit.h>
+#endif
 #import "AZCategory.h"
 #import "AZModel.h"
 
@@ -82,8 +84,13 @@
     static NSString *_userAgent = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
+#if TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE
         NSString *systemName = [[[UIDevice currentDevice] systemName] stringByReplacingOccurrencesOfString:@" " withString:@"-"];
         NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
+#else
+        NSString *systemName=@"OS X";
+        NSString *systemVersion=@"10.9.3";
+#endif
         NSString *localeIdentifier = [[NSLocale currentLocale] localeIdentifier];
         _userAgent = [NSString stringWithFormat:@"aws-sdk-iOS/%@ %@/%@ %@", @"2.0.0", systemName, systemVersion, localeIdentifier];
     });
