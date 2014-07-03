@@ -179,6 +179,8 @@
 		FF43FE72196556B700651C7D /* AWSSQSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE372B6718DA874000D2CFD2 /* AWSSQSModel.m */; };
 		FF43FE73196556D000651C7D /* libMantle-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF031A2C1960A0F700A70B3F /* libMantle-Mac.a */; };
 		FF43FE75196556DD00651C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43FE74196556DD00651C7D /* Foundation.framework */; };
+		FF43FE86196589C000651C7D /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A501960B12700A70B3F /* BFAppLink.m */; };
+		FF43FE87196589D400651C7D /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5A1960B12700A70B3F /* BFAppLinkTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1493,6 +1495,8 @@
 				FF43FE161965561100651C7D /* BFTaskCompletionSource.m in Sources */,
 				FF43FE181965561100651C7D /* BFURL.m in Sources */,
 				FF43FE1C1965561100651C7D /* Bolts.m in Sources */,
+				FF43FE87196589D400651C7D /* BFAppLinkTarget.m in Sources */,
+				FF43FE86196589C000651C7D /* BFAppLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
