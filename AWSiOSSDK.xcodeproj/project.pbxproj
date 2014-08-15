@@ -106,28 +106,12 @@
 		FF031A1A19609FC200A70B3F /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1719609FC200A70B3F /* TMMemoryCache.m */; };
 		FF031A2F1960A10F00A70B3F /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF031A281960A0F700A70B3F /* libMantle-iOS.a */; };
 		FF031A451960A2AD00A70B3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31486C187B59220068883B /* UIKit.framework */; };
-		FF031A681960B12700A70B3F /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A501960B12700A70B3F /* BFAppLink.m */; };
-		FF031A691960B12700A70B3F /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A521960B12700A70B3F /* BFAppLinkNavigation.m */; };
-		FF031A6A1960B12700A70B3F /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A551960B12700A70B3F /* BFAppLinkReturnToRefererController.m */; };
-		FF031A6B1960B12700A70B3F /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A581960B12700A70B3F /* BFAppLinkReturnToRefererView.m */; };
-		FF031A6C1960B12700A70B3F /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5A1960B12700A70B3F /* BFAppLinkTarget.m */; };
-		FF031A6D1960B12700A70B3F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5C1960B12700A70B3F /* BFExecutor.m */; };
-		FF031A6E1960B12700A70B3F /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5E1960B12700A70B3F /* BFTask.m */; };
-		FF031A6F1960B12700A70B3F /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A601960B12700A70B3F /* BFTaskCompletionSource.m */; };
-		FF031A701960B12700A70B3F /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A621960B12700A70B3F /* BFURL.m */; };
-		FF031A711960B12700A70B3F /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A641960B12700A70B3F /* BFWebViewAppLinkResolver.m */; };
-		FF031A721960B12700A70B3F /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A661960B12700A70B3F /* Bolts.m */; };
 		FF43FDE0196555E900651C7D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43FDDF196555E900651C7D /* Cocoa.framework */; };
 		FF43FDF0196555E900651C7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D83E71857AA3100907C25 /* XCTest.framework */; };
 		FF43FDF1196555E900651C7D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43FDDF196555E900651C7D /* Cocoa.framework */; };
 		FF43FDF4196555E900651C7D /* libAWSCocoaSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43FDDE196555E800651C7D /* libAWSCocoaSDK.a */; };
 		FF43FDFA196555E900651C7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF43FDF8196555E900651C7D /* InfoPlist.strings */; };
 		FF43FDFC196555E900651C7D /* AWSCocoaSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF43FDFB196555E900651C7D /* AWSCocoaSDKTests.m */; };
-		FF43FE121965561100651C7D /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5C1960B12700A70B3F /* BFExecutor.m */; };
-		FF43FE141965561100651C7D /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5E1960B12700A70B3F /* BFTask.m */; };
-		FF43FE161965561100651C7D /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A601960B12700A70B3F /* BFTaskCompletionSource.m */; };
-		FF43FE181965561100651C7D /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A621960B12700A70B3F /* BFURL.m */; };
-		FF43FE1C1965561100651C7D /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A661960B12700A70B3F /* Bolts.m */; };
 		FF43FE1F1965561800651C7D /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1319609FC200A70B3F /* TMCache.m */; };
 		FF43FE211965561800651C7D /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1519609FC200A70B3F /* TMDiskCache.m */; };
 		FF43FE231965561800651C7D /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A1719609FC200A70B3F /* TMMemoryCache.m */; };
@@ -179,8 +163,6 @@
 		FF43FE72196556B700651C7D /* AWSSQSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE372B6718DA874000D2CFD2 /* AWSSQSModel.m */; };
 		FF43FE73196556D000651C7D /* libMantle-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF031A2C1960A0F700A70B3F /* libMantle-Mac.a */; };
 		FF43FE75196556DD00651C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43FE74196556DD00651C7D /* Foundation.framework */; };
-		FF43FE86196589C000651C7D /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A501960B12700A70B3F /* BFAppLink.m */; };
-		FF43FE87196589D400651C7D /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = FF031A5A1960B12700A70B3F /* BFAppLinkTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -427,31 +409,6 @@
 		FF031A1619609FC200A70B3F /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = External/TMCache/TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
 		FF031A1719609FC200A70B3F /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = External/TMCache/TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
 		FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = External/Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
-		FF031A4F1960B12700A70B3F /* BFAppLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = External/Bolts/Bolts/BFAppLink.h; sourceTree = "<group>"; };
-		FF031A501960B12700A70B3F /* BFAppLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = External/Bolts/Bolts/BFAppLink.m; sourceTree = "<group>"; };
-		FF031A511960B12700A70B3F /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = External/Bolts/Bolts/BFAppLinkNavigation.h; sourceTree = "<group>"; };
-		FF031A521960B12700A70B3F /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = External/Bolts/Bolts/BFAppLinkNavigation.m; sourceTree = "<group>"; };
-		FF031A531960B12700A70B3F /* BFAppLinkResolving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = External/Bolts/Bolts/BFAppLinkResolving.h; sourceTree = "<group>"; };
-		FF031A541960B12700A70B3F /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = External/Bolts/Bolts/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
-		FF031A551960B12700A70B3F /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = External/Bolts/Bolts/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
-		FF031A561960B12700A70B3F /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = External/Bolts/Bolts/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
-		FF031A571960B12700A70B3F /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = External/Bolts/Bolts/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
-		FF031A581960B12700A70B3F /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = External/Bolts/Bolts/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
-		FF031A591960B12700A70B3F /* BFAppLinkTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = External/Bolts/Bolts/BFAppLinkTarget.h; sourceTree = "<group>"; };
-		FF031A5A1960B12700A70B3F /* BFAppLinkTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = External/Bolts/Bolts/BFAppLinkTarget.m; sourceTree = "<group>"; };
-		FF031A5B1960B12700A70B3F /* BFExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = External/Bolts/Bolts/BFExecutor.h; sourceTree = "<group>"; };
-		FF031A5C1960B12700A70B3F /* BFExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = External/Bolts/Bolts/BFExecutor.m; sourceTree = "<group>"; };
-		FF031A5D1960B12700A70B3F /* BFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = External/Bolts/Bolts/BFTask.h; sourceTree = "<group>"; };
-		FF031A5E1960B12700A70B3F /* BFTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = External/Bolts/Bolts/BFTask.m; sourceTree = "<group>"; };
-		FF031A5F1960B12700A70B3F /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = External/Bolts/Bolts/BFTaskCompletionSource.h; sourceTree = "<group>"; };
-		FF031A601960B12700A70B3F /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = External/Bolts/Bolts/BFTaskCompletionSource.m; sourceTree = "<group>"; };
-		FF031A611960B12700A70B3F /* BFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = External/Bolts/Bolts/BFURL.h; sourceTree = "<group>"; };
-		FF031A621960B12700A70B3F /* BFURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = External/Bolts/Bolts/BFURL.m; sourceTree = "<group>"; };
-		FF031A631960B12700A70B3F /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = External/Bolts/Bolts/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
-		FF031A641960B12700A70B3F /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = External/Bolts/Bolts/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
-		FF031A651960B12700A70B3F /* Bolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = External/Bolts/Bolts/Bolts.h; sourceTree = "<group>"; };
-		FF031A661960B12700A70B3F /* Bolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = External/Bolts/Bolts/Bolts.m; sourceTree = "<group>"; };
-		FF031A671960B12700A70B3F /* BoltsVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = External/Bolts/Bolts/BoltsVersion.h; sourceTree = "<group>"; };
 		FF43FDDE196555E800651C7D /* libAWSCocoaSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWSCocoaSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF43FDDF196555E900651C7D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		FF43FDE2196555E900651C7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1002,7 +959,6 @@
 		FF031A0419609BFC00A70B3F /* External */ = {
 			isa = PBXGroup;
 			children = (
-				FF031A4E1960B10300A70B3F /* Bolts */,
 				FF031A1B1960A0F700A70B3F /* Mantle.xcodeproj */,
 				FF031A1119609F8500A70B3F /* TMCache */,
 				FF031A0D19609F6300A70B3F /* CSURITemplate */,
@@ -1062,38 +1018,6 @@
 				FF031A2C1960A0F700A70B3F /* libMantle-Mac.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FF031A4E1960B10300A70B3F /* Bolts */ = {
-			isa = PBXGroup;
-			children = (
-				FF031A4F1960B12700A70B3F /* BFAppLink.h */,
-				FF031A501960B12700A70B3F /* BFAppLink.m */,
-				FF031A511960B12700A70B3F /* BFAppLinkNavigation.h */,
-				FF031A521960B12700A70B3F /* BFAppLinkNavigation.m */,
-				FF031A531960B12700A70B3F /* BFAppLinkResolving.h */,
-				FF031A541960B12700A70B3F /* BFAppLinkReturnToRefererController.h */,
-				FF031A551960B12700A70B3F /* BFAppLinkReturnToRefererController.m */,
-				FF031A561960B12700A70B3F /* BFAppLinkReturnToRefererView_Internal.h */,
-				FF031A571960B12700A70B3F /* BFAppLinkReturnToRefererView.h */,
-				FF031A581960B12700A70B3F /* BFAppLinkReturnToRefererView.m */,
-				FF031A591960B12700A70B3F /* BFAppLinkTarget.h */,
-				FF031A5A1960B12700A70B3F /* BFAppLinkTarget.m */,
-				FF031A5B1960B12700A70B3F /* BFExecutor.h */,
-				FF031A5C1960B12700A70B3F /* BFExecutor.m */,
-				FF031A5D1960B12700A70B3F /* BFTask.h */,
-				FF031A5E1960B12700A70B3F /* BFTask.m */,
-				FF031A5F1960B12700A70B3F /* BFTaskCompletionSource.h */,
-				FF031A601960B12700A70B3F /* BFTaskCompletionSource.m */,
-				FF031A611960B12700A70B3F /* BFURL.h */,
-				FF031A621960B12700A70B3F /* BFURL.m */,
-				FF031A631960B12700A70B3F /* BFWebViewAppLinkResolver.h */,
-				FF031A641960B12700A70B3F /* BFWebViewAppLinkResolver.m */,
-				FF031A651960B12700A70B3F /* Bolts.h */,
-				FF031A661960B12700A70B3F /* Bolts.m */,
-				FF031A671960B12700A70B3F /* BoltsVersion.h */,
-			);
-			name = Bolts;
 			sourceTree = "<group>";
 		};
 		FF43FDE1196555E900651C7D /* Other Frameworks */ = {
@@ -1371,7 +1295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0EFAE7193D2939002A896B /* AWSSTS.m in Sources */,
-				FF031A6F1960B12700A70B3F /* BFTaskCompletionSource.m in Sources */,
 				CE0EFAE8193D2939002A896B /* AWSSTSModel.m in Sources */,
 				CE55F39918DB806000F8C75F /* AZNetworking.m in Sources */,
 				CE372B7918DA874000D2CFD2 /* AWSEC2.m in Sources */,
@@ -1381,7 +1304,6 @@
 				CE372B8718DA874000D2CFD2 /* AWSSQS.m in Sources */,
 				CE372B8118DA874000D2CFD2 /* AWSSES.m in Sources */,
 				BDBA90BC18EE43BE004EE131 /* AWSURLRequestSerialization.m in Sources */,
-				FF031A6C1960B12700A70B3F /* BFAppLinkTarget.m in Sources */,
 				CE9E1F8C1907414400C59639 /* AWSHALModel.m in Sources */,
 				CE483F8D1949197800781076 /* AZModel.m in Sources */,
 				CE287DD418EB6CDC00603067 /* AZLogging.m in Sources */,
@@ -1393,14 +1315,10 @@
 				CE372B8418DA874000D2CFD2 /* AWSSimpleDBModel.m in Sources */,
 				BDD77707193FBF6700F04070 /* AWSSTS.m in Sources */,
 				BDBA90C518EE4427004EE131 /* XMLWriter.m in Sources */,
-				FF031A6E1960B12700A70B3F /* BFTask.m in Sources */,
 				CE372B7C18DA874000D2CFD2 /* AWSElasticLoadBalancingModel.m in Sources */,
-				FF031A711960B12700A70B3F /* BFWebViewAppLinkResolver.m in Sources */,
 				CE372B8518DA874000D2CFD2 /* AWSSNS.m in Sources */,
 				BDD77708193FBF6A00F04070 /* AWSSTSModel.m in Sources */,
-				FF031A6D1960B12700A70B3F /* BFExecutor.m in Sources */,
 				FF031A1919609FC200A70B3F /* TMDiskCache.m in Sources */,
-				FF031A6B1960B12700A70B3F /* BFAppLinkReturnToRefererView.m in Sources */,
 				FF031A0819609F3700A70B3F /* UICKeyChainStore.m in Sources */,
 				FF031A0C19609F5F00A70B3F /* XMLDictionary.m in Sources */,
 				BDBA90BB18EE43BA004EE131 /* AWSURLResponseSerialization.m in Sources */,
@@ -1408,9 +1326,6 @@
 				CE372B7A18DA874000D2CFD2 /* AWSEC2Model.m in Sources */,
 				FF031A1A19609FC200A70B3F /* TMMemoryCache.m in Sources */,
 				BDBA90C018EE43C8004EE131 /* AWSNetworking.m in Sources */,
-				FF031A721960B12700A70B3F /* Bolts.m in Sources */,
-				FF031A6A1960B12700A70B3F /* BFAppLinkReturnToRefererController.m in Sources */,
-				FF031A691960B12700A70B3F /* BFAppLinkNavigation.m in Sources */,
 				BDD77705193FBF6000F04070 /* (null) in Sources */,
 				BDBA90C218EE43FF004EE131 /* AWSSignature.m in Sources */,
 				BDBA90C318EE441F004EE131 /* AWSService.m in Sources */,
@@ -1419,11 +1334,9 @@
 				CE55F39B18DB806000F8C75F /* AZURLSessionManager.m in Sources */,
 				CE55F39C18DB806000F8C75F /* AZSynchronizedMutableDictionary.m in Sources */,
 				FF031A1819609FC200A70B3F /* TMCache.m in Sources */,
-				FF031A701960B12700A70B3F /* BFURL.m in Sources */,
 				CE372B7518DA874000D2CFD2 /* AWSCloudWatch.m in Sources */,
 				CED6C36618EE3EC800A56FB2 /* AWSS3TransferManager.m in Sources */,
 				CE372B8818DA874000D2CFD2 /* AWSSQSModel.m in Sources */,
-				FF031A681960B12700A70B3F /* BFAppLink.m in Sources */,
 				BDBA90BA18EE43B6004EE131 /* AWSValidation.m in Sources */,
 				CE372B7B18DA874000D2CFD2 /* AWSElasticLoadBalancing.m in Sources */,
 				CE372B7818DA874000D2CFD2 /* AWSDynamoDBModel.m in Sources */,
@@ -1490,13 +1403,6 @@
 				FF43FE1F1965561800651C7D /* TMCache.m in Sources */,
 				FF43FE211965561800651C7D /* TMDiskCache.m in Sources */,
 				FF43FE231965561800651C7D /* TMMemoryCache.m in Sources */,
-				FF43FE121965561100651C7D /* BFExecutor.m in Sources */,
-				FF43FE141965561100651C7D /* BFTask.m in Sources */,
-				FF43FE161965561100651C7D /* BFTaskCompletionSource.m in Sources */,
-				FF43FE181965561100651C7D /* BFURL.m in Sources */,
-				FF43FE1C1965561100651C7D /* Bolts.m in Sources */,
-				FF43FE87196589D400651C7D /* BFAppLinkTarget.m in Sources */,
-				FF43FE86196589C000651C7D /* BFAppLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,6 +1760,7 @@
 				FF43FDFF196555E900651C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF43FE00196555E900651C7D /* Build configuration list for PBXNativeTarget "AWSCocoaSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -1862,6 +1769,7 @@
 				FF43FE02196555E900651C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
